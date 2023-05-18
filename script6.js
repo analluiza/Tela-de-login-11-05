@@ -1,4 +1,15 @@
-//
+/*Questão 6
+function calcule(numero) {
+    return parselFloat(prompt(numero))
+}
+var num = calcule(Number(`Digite o primeiro número:`));
+var num1 = calcule(Number(`Digite o segundo número:`));
+
+var selecao = calcule(Number(`Digite a seleção escolhida:`));
+
+if(selecao === '1') {
+    window.alert()
+}*/
 
 var num = Number(window.prompt(`Digite o primeiro número:`));
 var num1 = Number(window.prompt(`Digite o segundo número:`));
@@ -13,4 +24,5 @@ switch (selecao){
 }
 
 window.alert(`o resutado é: ${resultado}`)
+
 
